@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* CSS position: static (bedefault),absoult,relative,fixed,sticky */
+
+        .container{
+            border: 2px sloid black;
+            background-color: khaki;
+            height: 3444px;
+        }
+        .box{
+            display: inline-block;
+            border: 2px solid  red;
+            width: 150px;
+            height: 150px;
+            margin: 2px;
+            text-align: center;
+
+        }
+        #box3{
+
+            
+            /* relative : relative to its normale position and will leave a gap at its normal postion*/
+             /* position: relative; */
+            /* absoult: relative  to the postion of its first parent*/
+
+            /* top:34px;
+            left: 134px; */
+
+
+            /* fixed: relativeto the browser window */
+
+         /* 
+            position: fixed;
+            right: 4px;
+            bottom: 2px; */
+
+            position: sticky;
+            top: 3px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    
+    <div class="box" id="box1">1</div>
+    <div class="box" id="box2">2</div>
+    <div class="box" id="box3">chat with us</div>
+    <div class="box" id="box4">4</div>
+   </div>
+</body>
+</html>
