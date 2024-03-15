@@ -11,6 +11,9 @@
     align-items: center;
 }
 .box{
+    
+    display: flex;
+    flex-direction: column;
      height: 80%;
      width: 28%;
      /* border: 2px solid black; */
@@ -22,66 +25,98 @@ img{
     
 }
 .inner-box1{
+
+    border: 1px solid black;
     height: 70%;
     /* border: 2px solid red; */
 }
 
 .b1{
     height: 23%;
-    border: 1px solid black;
+    
 }
  .b1 img{
     height: 100%;
  }
  .b2{
     height: 45%;
-    border: 1px solid black;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
  }
 
  input{
-     height: 30px;
+     height: 20%;
      width: 85%;
-     background-color: whitesmoke
+     background-color: whitesmoke;
  }
 
  .b3{
+  
     height: 31%;
-    border: 1px solid black; 
+    width: 100%;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.b3 p{
-       text-align: center;
+.b3 .hr{
+   width: 100%;
+   height: 30px;
+   /* border: 2px solid red; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
-   h4{
-    margin-left: 90px;
-    margin-top: 20px;
+  
+.hr hr{
+    width: 40%;
+    margin-bottom: 30px;
+}
+.p{
+    margin-bottom: 30px;
+}
+   .aa{
+    font-family: sans-serif;
+    width: 50%;
+   display: flex;
+   justify-content: space-evenly;
+
    }
-   h6{
-    margin-left: 120px;
+   .aa1{
+    font-family: sans-serif;
+    align-items: center;
+    width: 50%;
+   display: flex;
+   justify-content: center;
+   text-decoration: none;
+   margin-top: 10px;
    }
 
 
  button{
-    height: 30px;
-    width: 75%;
-    background-color: aqua;
-    border-radius: 20px;
+    height:20%;
+    width: 85%;
+    background-color: blue;
+    border-radius: 15px;
     /* border: 2px solid aqua; */
     border: none;
 }
  
 .inner-box2{
+    margin-top: 10px;
     height: 10%;
     border: 1px solid black;
+    font-family: sans-serif;
 }
 
 .inner-box2 h5{
       margin-left: 80px;
       margin-top: 15px;
+      
 }
 .inner-box3{
     height: 18.5%;
@@ -93,6 +128,7 @@ img{
     text-align: center;
     /* width: 100%; */
     margin-top: 5px;
+    font-family: sans-serif;
 }
 
 .get{
