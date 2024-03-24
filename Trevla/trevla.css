@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main-container{
+    height: 1000vh;
+    border: 3px solid red;
+    width: 100%;
+
+}
+.header{
+    height: 60px;
+    background-color: rgba(0, 0, 150, 30) ;
+    display: flex;
+}
+.bar {
+padding-top: 10px;
+margin-left: 30px;
+font-size: 30px;
+color: bisque;
+padding-top: 15px;
+word-spacing: 10px;
+}
+.bar1{
+    padding: 20px 20px 0px 50%;
+    display: flex;
+    word-spacing: 20px;
+    color: white;
+    h4{
+     margin-left: 10px;
+     color: white;
+    }
+}
+.bar2{
+    display: flex;
+    word-spacing: 20px;
+    padding-top: 20px;
+    color: white;
+    h4{
+        margin-left: 10px;
+        color: white;
+    }
+}
+.bar3{
+
+    display: flex;
+    word-spacing: 10px;
+    padding-top: 20px;
+    color: white;
+    margin-left: 20px;
+    h4{
+        color: white;
+        margin-left: 10px;
+    }
+}
+.image{
+    position: relative;
+}
+img{
+    position: absolute;
+    border: 1px solid black;
+    width: 100%;
+}
+.trevla{
+    height: 80px;
+    border: 2px solid black;
+    padding-top: 0px;
+}
+.imagetext{
+    position: absolute;
+    height: 50px;
+    width: 15%;
+    top: 10px;
+    left: 20px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(10,10,10);
+
+    
+}
