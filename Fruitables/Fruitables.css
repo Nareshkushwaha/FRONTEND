@@ -1,0 +1,365 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.contaner{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid black; */
+    height: 200px;
+    position: relative;
+}
+.div1{
+  
+    background-color: greenyellow;
+    border: 0px;
+    border-radius: 60px 30px;
+    height: 60px;
+    align-items: center;
+    width: 80%;
+    display: flex;
+    margin-top: 0px;
+i{
+        margin-left: 30px;
+        color: orange;
+    }
+}
+h4{
+     color:white;
+      margin-left: 10px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      
+}
+.h4{
+    padding-left: 30%;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+.header_c{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 80%;
+    left: 150px;
+    top :100px;
+    h1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(123, 198, 11);
+        font-weight: bold;
+        font-size: 40px;
+        display: flex; 
+        align-items: self-start;
+    }
+  
+    .text{
+        display:flex;
+        list-style: none; 
+        justify-content: space-evenly;
+        width: 45%;
+        font-size:20px;
+        margin-left: 20%;
+        font-family: sans-serif; 
+        color: gray;
+        
+    }
+
+    .search{
+        margin-left: 15%;
+         display: flex;
+          height: 47px;
+          width: 55px;
+          border: 1px solid orange;
+          border-radius: 50%;
+         padding-top: 13px;
+         padding-left: 12px;
+         i{
+             color: greenyellow;
+            font-weight: bolder;
+            font-size: larger;
+         }
+    }
+
+    .bage{
+        margin-left: 35px;
+        color: greenyellow;
+    }
+    .profile{
+
+        color: greenyellow;
+        margin-left: 35px;
+    }
+  
+}
+
+.container2{
+ display: flex;
+ width: 100%;
+height: 550px;
+background-image: url("https://themewagon.github.io/fruitables/img/hero-img.jpg");
+/* border: 2px solid black; */
+
+}
+.con-header1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    /* border:  1px solid black; */
+    h2{
+        color: orange;
+        font-family: sans-serif;
+        margin-bottom: 10px;
+        margin-right: 270px;
+        
+
+    }
+    h1{
+        color: rgb(123, 198, 11);
+        font-size: 70px;
+        font-family: sans-serif;
+        margin-left: 120px;
+        margin-bottom: 60px;
+    }
+    input{
+        height: 100%;
+        width: 70%;
+        border-radius: 50px;
+        font-size: larger;
+        padding-left: 10%;
+        border: none;
+        /* border:1px solid red; */
+        /* color: greenyellow; */
+    }
+    
+    .button{
+        border: 1px solid black;
+        height: 60px;
+        width: 70%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border-radius: 50px;
+       /* color: greenyellow; */
+    }
+    .submit{
+        background-color: greenyellow;
+        color: white;
+        border:none;
+        height: 100%;
+        width: 30%;
+        font-size: 20px;
+        border-radius: 50px;
+    }
+}
+.con-header2{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    .inner-head{
+        height: 300px;
+        width: 70%;
+        border: 1px solid red;
+        margin-right: 15%;
+        border-radius: 10px;
+    }
+   
+    
+    img{
+        height: 100%;
+        width: 100%;
+        background-color: orange;
+        border-radius: 10px;
+    }
+}
+.container3{
+    border: 2px solid black;
+    width: 100%;
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+
+   .container3-mini{
+
+     width: 90%;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+    }
+}
+.shoping{
+
+    height: 300px;
+    width: 20%;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #f4f6f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    .div-shop{
+        height: 70%;
+        width: 100%;
+        /* border: 2px solid black; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    
+    }
+    .shoping-div{
+        height: 70px;
+        width: 100%;
+        font-family: sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        h5{
+            font-size: 21px;
+            color: black;
+            margin-bottom: 10px;
+        }
+        p{
+            color: gray;
+            font-size: 19px;
+        }
+    }
+
+    .free{
+        height: 140px;
+        width: 140px;
+        border: 1px solid orange;
+        border-radius: 80px;
+        background-color: #ffb524;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #f4f6f8;
+    }
+
+}
+
+.container4{
+    height: 170vh;
+    width: 100%;
+    border: 2px solid black; 
+
+    .our-product{
+
+        height: 12%;
+         width: 100%;
+         border: 1px solid black;
+         display:flex ;
+         justify-content: center;
+
+        }
+    .product{
+
+        height: 95%;
+        width: 30%;
+        /* border: 2px solid black; */
+        font-size: 55px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: sans-serif;
+        color: gray;
+        p{
+            
+        }
+    }
+    .product-contain{
+        width: 55%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        /* border: 2px solid red; */
+
+        button{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            height: 30%;
+            width: 15%;;
+             padding: 10px; 
+            font-size: 17px;
+            border-radius: 20px;
+            background-color: #ffb524;
+        }
+}
+}
+.fruits{
+     height: 85%;
+     width: 85%;
+     margin-left: 100px;
+     display: flex;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+     align-items: center;
+
+}
+.card{
+   
+  height: 420px;
+  width: 280px;
+  border: 2px solid blue;
+ justify-content: space-evenly;
+ border-radius: 7px;
+ position: relative;
+}
+
+.card1{
+    height: 50%;
+    width: 100%;
+    border: 1px solid greenyellow;
+    border-radius: 7px;
+    img{
+        width: 100%;
+        height: 100%;
+        border-radius: 7px;
+    }
+}
+.card2{
+    height: 50%;
+    width: 100%;
+    border: 1px solid greenyellow;
+    border-radius: 7px;
+
+    .kg{
+        border: 1px solid black;
+        height: 50px;
+        width: 200px;
+    }
+    
+}
+.grapes{
+    font-family: sans-serif;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    background-color: #ffb524;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+

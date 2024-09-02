@@ -1,0 +1,6 @@
+@media screen and (max-width: 480px) {
+   .container2{
+    flex-direction: column;
+
+   }
+  }
