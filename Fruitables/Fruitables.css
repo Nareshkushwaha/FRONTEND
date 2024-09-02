@@ -315,7 +315,7 @@ background-image: url("https://themewagon.github.io/fruitables/img/hero-img.jpg"
    
   height: 420px;
   width: 280px;
-  border: 2px solid blue;
+  border: 2px solid yellow;
  justify-content: space-evenly;
  border-radius: 7px;
  position: relative;
@@ -324,7 +324,7 @@ background-image: url("https://themewagon.github.io/fruitables/img/hero-img.jpg"
 .card1{
     height: 50%;
     width: 100%;
-    border: 1px solid greenyellow;
+    /* border: 1px solid greenyellow; */
     border-radius: 7px;
     img{
         width: 100%;
@@ -335,15 +335,42 @@ background-image: url("https://themewagon.github.io/fruitables/img/hero-img.jpg"
 .card2{
     height: 50%;
     width: 100%;
-    border: 1px solid greenyellow;
+    /* border: 1px solid greenyellow; */
     border-radius: 7px;
-
-    .kg{
-        border: 1px solid black;
-        height: 50px;
-        width: 200px;
-    }
     
+}
+.grap{
+    text-align: center;
+      font-size:28px;
+      font-family:  sans-serif;
+     color: gray;
+     margin-top: 12px;
+}
+.lorem{
+
+     font-size: large;
+     text-align: center;
+     margin-top: 5px;
+
+}
+.kg{
+    margin-top: 10px;
+    font-family: unset;
+    margin-left: 22px;
+    flex-direction: row;
+    /* border: 1px solid yellow; */
+}
+.cart{
+    height: 40px;
+    width: 70%;
+     font-size: larger;
+     border-radius: 20px;
+     /* background-color: #ffb524; */
+     color: rgb(123, 198, 11);
+a{
+    color: rgb(123, 198, 11);
+}
+  
 }
 .grapes{
     font-family: sans-serif;
@@ -359,6 +386,11 @@ background-image: url("https://themewagon.github.io/fruitables/img/hero-img.jpg"
     justify-content: center;
     align-items: center;
    
+}
+
+.container5{
+
+    
 }
 
 
