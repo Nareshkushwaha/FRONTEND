@@ -413,7 +413,7 @@ a{
         padding-top: 60px;
         padding-bottom: 50px;
         border: 1px solid violet;
-        width: 90%;
+        width: 85%;
         display: flex;
     
      justify-content: space-evenly;
@@ -421,13 +421,77 @@ a{
     }
     .Apple{
       
-        height: 400px;
-        width:27% ;
-        border: 2px solid purple;
-        
+        height: 500px;
+        width:29% ;
+        /* border: 2px solid purple; */
+        border-radius: 10px;
+    }
+    .strawberry{
+
+        height: 500px;
+        width:29% ;
+        /* border: 2px solid #45595B;; */
+        /* border-radius: 10px; */
+    }
+    .broccli{
+        height: 500px;
+        width:29% ;
+        /* border: 2px solid purple; */
+        /* border-radius: 10px; */
 
     }
-    
+    img{
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .apple-inner{
+        height: 65%;
+        width: 100%;
+        border: 2px solid #ffc107;
+        /* border-radius: 10px; */
+    }
+
+    .apple-inner2{
+        height: 35%;
+        width: 100%;
+        /* border-radius: 10px; */
+        background-color:  #ffc107;
+    }
+
+
+
+    .strawberry-inner{
+        height: 65%;
+        width: 100%;
+         border: 2px solid  #45595B;
+        /* border-radius: 10px; */
+    }
+
+    .strawberry-inner2{
+        height: 35%;
+        width: 100%;
+        /* border-radius: 10px; */
+        /* border: 2px solid slateblue; */
+        background-color: #45595B;
+    }
+
+    .broccli-inner{
+        height: 65%;
+        width: 100%;
+        border: 2px solid #81C408;
+        /* border-radius: 10px; */
+    }
+
+    .broccli-inner2{
+        height: 35%;
+        width: 100%;
+        /* border-radius: 10px; */
+        /* border: 2px solid slateblue; */
+        background-color: #81C408;
+    }
+   
 }
 
 
