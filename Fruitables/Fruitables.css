@@ -253,7 +253,7 @@ background-image: url("https://themewagon.github.io/fruitables/img/hero-img.jpg"
 }
 
 .container4{
-    height: 170vh;
+    /* height: 170 */
     width: 100%;
     /* border: 2px solid black;  */
 
@@ -321,6 +321,7 @@ background-image: url("https://themewagon.github.io/fruitables/img/hero-img.jpg"
  justify-content: space-evenly;
  border-radius: 7px;
  position: relative;
+ margin: 10px 10px;
 }
 
 .card1{
@@ -328,6 +329,7 @@ background-image: url("https://themewagon.github.io/fruitables/img/hero-img.jpg"
     width: 100%;
     /* border: 1px solid greenyellow; */
     border-radius: 7px;
+    overflow: hidden;
     img{
         width: 100%;
         height: 100%;
@@ -337,8 +339,7 @@ background-image: url("https://themewagon.github.io/fruitables/img/hero-img.jpg"
     img:hover {
         
         
-        transform: scale(1.1);
-        
+        transform: scale(1.2);
         transition: 0.5s;
         box-sizing: border-box;
         }
@@ -412,9 +413,10 @@ a{
     .container5-inner1{
         padding-top: 60px;
         padding-bottom: 50px;
-        border: 1px solid violet;
-        width: 85%;
+        width: 82%;
+        margin-right: 25px;
         display: flex;
+        flex-wrap: wrap;
     
      justify-content: space-evenly;
      align-items: center;
@@ -422,20 +424,73 @@ a{
     .Apple{
       
         height: 500px;
-        width:29% ;
-        /* border: 2px solid purple; */
+        width:400px ;
         border-radius: 10px;
     }
+
+    }
+    #apple{
+        background-color:#fff;;
+    }
+    #apple1{
+        background-color: #ffc107;
+    }
+    #apple2{
+        background-color:  rgb(123, 198, 11);
+    }
+    
+    .fresh-apple{
+        height: 150px;
+        width: 300px;
+        border: 2px solid black;
+        background-color: green;
+        position:relative;
+        bottom: 22%;
+        left:12%;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .free1{
+        font-size: 30px;
+    }
+    .off{
+        font-size: 30px;
+        font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .off1{
+        font-size: 33px;
+        font-weight: bold;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .off2{
+        font-size: 30px;
+        font-weight: bold;
+        font-family: sans-serif;    }
+
+  .free2{
+      font-size: 30px;
+      color: #81C408;
+  }
+    
+  .free3{
+    font-size: 25px;
+    color: white;
+    font-family: sans-serif;
+  }
     .strawberry{
 
         height: 500px;
-        width:29% ;
+        width:400px ;
         /* border: 2px solid #45595B;; */
         /* border-radius: 10px; */
     }
     .broccli{
         height: 500px;
-        width:29% ;
+        width:400px ;
         /* border: 2px solid purple; */
         /* border-radius: 10px; */
 
@@ -450,13 +505,16 @@ a{
         height: 65%;
         width: 100%;
         border: 2px solid #ffc107;
+        border-top-right-radius:  10px;
+        border-top-left-radius:  10px;
         /* border-radius: 10px; */
     }
 
     .apple-inner2{
         height: 35%;
         width: 100%;
-        /* border-radius: 10px; */
+        border-bottom-right-radius:  10px;
+        border-bottom-left-radius:  10px;
         background-color:  #ffc107;
     }
 
@@ -466,14 +524,15 @@ a{
         height: 65%;
         width: 100%;
          border: 2px solid  #45595B;
-        /* border-radius: 10px; */
+         border-top-right-radius:  10px;
+         border-top-left-radius:  10px;
     }
 
     .strawberry-inner2{
         height: 35%;
         width: 100%;
-        /* border-radius: 10px; */
-        /* border: 2px solid slateblue; */
+        border-bottom-right-radius:  10px;
+        border-bottom-left-radius:  10px;
         background-color: #45595B;
     }
 
@@ -481,18 +540,23 @@ a{
         height: 65%;
         width: 100%;
         border: 2px solid #81C408;
-        /* border-radius: 10px; */
+        border-top-right-radius:  10px;
+        border-top-left-radius:  10px;
     }
 
     .broccli-inner2{
         height: 35%;
         width: 100%;
-        /* border-radius: 10px; */
-        /* border: 2px solid slateblue; */
+        border-bottom-right-radius:  10px;
+        border-bottom-left-radius:  10px;
         background-color: #81C408;
     }
    
+
+.container6{
+    height: 100vh;
+    width: 100%;
+    border: 2px solid red;
+    margin-top: 170px;
+
 }
-
-
-
