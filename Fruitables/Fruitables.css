@@ -404,7 +404,7 @@ a{
 
 .container5{
 
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -491,9 +491,7 @@ a{
     .broccli{
         height: 500px;
         width:400px ;
-        /* border: 2px solid purple; */
-        /* border-radius: 10px; */
-
+        
     }
     img{
         height: 100%;
@@ -556,7 +554,130 @@ a{
 .container6{
     height: 100vh;
     width: 100%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-top: 170px;
 
+
+    .organic{
+    
+        font-size: 42px;
+        margin-left: 160px;
+       font-family: sans-serif;
+       font-weight: 500;
+       color: gray;
+       
+    }
+
+    .vegitables{
+        /* border: 2px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+
+    }
+    .vegies{
+        height: 500px;
+        width: 290px;
+        border: 2px solid greenyellow;
+        margin: 20px;
+        border-radius: 5px;
+        justify-content: space-evenly;
+        border-radius: 7px;
+        position: relative;
+        margin: 10px 10px;
+
+    }
+    .vegies-inner1{
+        height: 40%;
+        width: 100%;
+        position: relative;
+    }
+   .div-vegitable{
+    font-family: sans-serif;
+    height: 38px;
+    font-size: large;
+    width: 120px;
+    border-radius: 10px;
+    background-color:#81c408;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .bell-paper{
+     font-size: 25px;
+     color: black;
+     font-family: sans-serif;
+     font-weight: 600;
+     padding-left: 17px ;
+     padding-top: 15px;
+   }
+   .pharagraph-bell{
+    font-size: 20px;
+    margin-left: 25px;
+    padding-top: 20px;
+    color: grey;  
+    font-family: sans-serif;    
+   }
+   .pharagraph-dollar{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 25px;
+    margin-top: 20px;
+   }
+   .button2{
+    height: 40px;
+    width: 170px;
+    font-size: large;
+    font-family: sans-serif;
+    border-radius: 20px;
+    border-color: #ffb524;
+    margin-left: 25px;
+    margin-top: 10px;
+   }
 }
+
+.container7{
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #ffc107;
+}
+.container7-inner{
+
+    width: 82%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    flex-wrap: wrap;
+   margin: 20px;
+}
+
+
+.container7-child1{
+    height:600px ;
+    width: 50%;
+    border: 1px solid blue;
+    
+}
+
+.container7-child2{
+        height:600px ;
+        width: 50%;
+        border: 1px solid blue;
+    
+  
+}
+
+
+
+
