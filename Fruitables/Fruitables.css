@@ -350,8 +350,15 @@ background-image: url("https://themewagon.github.io/fruitables/img/hero-img.jpg"
     width: 100%;
     /* border: 1px solid greenyellow; */
     border-radius: 7px;
-    
+
+   
 }
+.cart:hover {
+     background-color: #FFB524;
+     color: #fff;
+     transition: 0.5s;
+}
+
 .grap{
     text-align: center;
       font-size:28px;
@@ -378,9 +385,11 @@ background-image: url("https://themewagon.github.io/fruitables/img/hero-img.jpg"
     width: 70%;
      font-size: larger;
      border-radius: 20px;
-     /* background-color: #ffb524; */
+     
+
      color: rgb(123, 198, 11);
 a{
+    font-style: none;
     color: rgb(123, 198, 11);
 }
   
@@ -655,7 +664,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     flex-wrap: wrap;
    margin: 20px;
 }
@@ -743,6 +752,31 @@ a{
     }
 }
 
+/* ============================================== */
 
+.container8{
+     width: 100%;
+     border: 2px solid black;
+     padding-top: 200px;
 
-
+}
+.bestseller{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.best{
+   
+    /* background-color: #ffb524; */
+    color:#45595b;
+    font-weight: 780;
+    font-size:60px;
+    font-family: sans-serif;
+}
+.lorem-of-best{
+    font-size: larger;
+    font-family: sans-serif;
+    color: #45595B;
+    padding-top: 5px;
+}
