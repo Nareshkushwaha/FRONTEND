@@ -756,7 +756,7 @@ a{
 
 .container8{
      width: 100%;
-     border: 2px solid black;
+     /* border: 2px solid black; */
      padding-top: 200px;
 
 }
@@ -779,4 +779,101 @@ a{
     font-family: sans-serif;
     color: #45595B;
     padding-top: 5px;
+}
+
+.organic-food{
+    background-color: #f4f6f8;
+     height: 270px;
+     width: 400px;
+     /* border: 2px solid wheat; */
+     margin: 10px 10px;
+     border-radius: 15px;
+     display: flex;
+
+}
+.container8-child{
+    margin-top: 30px;
+    /* border: 2px solid black; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   
+   
+}
+.food1{
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+    /* border: 1px solid yellow; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+.food2{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid yellow; */
+    border-radius: 10px;
+    }
+.organic-tomato{
+   
+    width: 70px;
+    padding-top: 20px;
+    color: #45595b;
+    font-size: 20px;
+    font-family: sans-serif;
+    /* background-color: #81C408; */
+}
+.star{
+    display: flex;
+    height: 20px;
+    width: 100%;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+}
+.button3{
+    height: 60px;
+    width: 130px;
+border-radius: 50px;
+margin-top: 30px;
+margin-left: 30px;
+ border-color: #FFB524;
+}
+
+.container9{
+    margin-top: 20px;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.container9-inner{
+    width:90%;
+    
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+
+}
+.mini-fruits{
+    margin: 10px 10px;
+    height: 400px;
+    width: 300px;
+    border: 1px solid yellow;
+    border-radius: 10px;
+}
+.mini-inner1{
+    height: 50%;
+    width: 100%;
+    border: 1px solid yellow;
+    border-radius: 10px;
+
 }
