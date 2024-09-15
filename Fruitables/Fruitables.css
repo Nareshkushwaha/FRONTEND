@@ -1079,6 +1079,7 @@ border: 1px solid #FFB524;;
     height: 100%;
     width: 250px;
     border: 1px solid yellowgreen;
+    padding-top: 50px;
 
 }
 .email{
@@ -1086,10 +1087,45 @@ border: 1px solid #FFB524;;
     height: 100%;
     width: 600px;
     border: 1px solid greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .all-icons{
     height: 100%;
-    width: 200px;
+    width: 400px;
     border: 1px solid greenyellow;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+    
+}
+.button{
+    border: 1px solid #FFB524;;
+    height: 60px;
+    width: 90%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50px;
+   /* color: greenyellow; */
+}
+.submit{
+    background-color: greenyellow;
+    color: white;
+    border:none;
+    height: 100%;
+    width: 30%;
+    font-size: 20px;
+    border-radius: 50px;
+}
+.incon{
+    height: 50px;
+    width: 50px;
+    border: 1px solid #FFB524;
+    margin: 10px;
+    flex-wrap: wrap;
+    border-radius: 30px;
+
 }
