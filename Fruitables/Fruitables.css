@@ -1138,7 +1138,7 @@ border: 1px solid #FFB524;;
 .container14{
     /* height: 400px; */
     width: 100%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1154,7 +1154,7 @@ border: 1px solid #FFB524;;
     justify-content: center;
     align-items: center;
    flex-wrap: wrap;
-    border: 1px solid black;
+    /* border: 1px solid black; */
   
 
 
@@ -1166,26 +1166,26 @@ border: 1px solid #FFB524;;
      margin: 10px;
       height: 400px;
       width: 305px;
-      border: 1px solid red;
+      /* border: 1px solid red; */
      
 }
 .info{
 
     margin: 10px;
-    height: 350px;
+    height: 400px;
       width: 305px;
-      border: 1px solid red;
+      /* border: 1px solid red; */
 }
 .account{
 
     margin: 10px;
-    height: 350px;
+    height: 400px;
     width: 305px;
-      border: 1px solid red;
+      /* border: 1px solid red; */
 }
 .contect{
   margin: 10px;
-    height: 350px;
+  height: 400px;
       width: 305px;
-      border: 1px solid red;
+      /* border: 1px solid red; */
 }
