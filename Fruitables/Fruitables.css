@@ -1131,6 +1131,10 @@ border: 1px solid #FFB524;;
     border-radius: 30px;
 
 }
+
+
+
+
 .container14{
     /* height: 400px; */
     width: 100%;
@@ -1139,43 +1143,49 @@ border: 1px solid #FFB524;;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 10px;
+    padding: 20px;
+    margin-top: 40px;
 
 }
 .container14-inner{
-    height: 400px;
-    width: 86%;
-    border: 2px solid black;
+ width: 95%;
+    padding: 20px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    padding: 10px 10px 10px ;
-/
+   flex-wrap: wrap;
+    border: 1px solid black;
+  
+
+
+  
   
 }
 .Pepole{
 
-      height: 100%;
-      width: 300px;
+     margin: 10px;
+      height: 400px;
+      width: 305px;
       border: 1px solid red;
      
 }
 .info{
 
-    height: 100%;
-      width: 300px;
+    margin: 10px;
+    height: 350px;
+      width: 305px;
       border: 1px solid red;
 }
 .account{
 
-    height: 100%;
-      width: 300px;
+    margin: 10px;
+    height: 350px;
+    width: 305px;
       border: 1px solid red;
 }
 .contect{
-
-    height: 100%;
-      width: 300px;
+  margin: 10px;
+    height: 350px;
+      width: 305px;
       border: 1px solid red;
 }
