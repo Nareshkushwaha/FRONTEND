@@ -322,6 +322,13 @@ background-image: url("https://themewagon.github.io/fruitables/img/hero-img.jpg"
  position: relative;
  margin: 10px 10px;
 }
+.card:hover{
+   
+     box-shadow: #81C408;
+}
+
+    
+
 
 .card1{
     height: 50%;
@@ -1189,3 +1196,5 @@ border: 1px solid #FFB524;;
       width: 305px;
       /* border: 1px solid red; */
 }
+
+
