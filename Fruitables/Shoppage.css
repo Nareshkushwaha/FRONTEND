@@ -114,3 +114,24 @@ h4{
 
  }
 
+
+ .container2{
+     width: 100%;
+     border: 2px solid black;
+     margin-top: 20px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+ }
+ .fresh-fruit{
+     width: 80%;
+     /* border: 1px solid yellow; */
+     margin-top: 80px;
+
+ }
+ .keyboard{
+     width:80%;
+     border: 2px solid gray;
+     padding: 10px 10px;
+ }
