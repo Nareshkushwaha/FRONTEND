@@ -99,7 +99,7 @@ h4{
     justify-content: center;
      height: 180px;
      width: 100%;
-     opacity: 0.7;
+     /* opacity: 0.7; */
      background-image: url("https://themewagon.github.io/fruitables/img/cart-page-header-img.jpg");
      background-position: center center;
      background-repeat: no-repeat;
@@ -126,12 +126,32 @@ h4{
  }
  .fresh-fruit{
      width: 80%;
-     /* border: 1px solid yellow; */
+     border: 1px solid yellow;
      margin-top: 80px;
 
  }
  .keyboard{
-     width:80%;
+    margin-top: 30px;
+     height: 80px;
+     width:100%;
      border: 2px solid gray;
-     padding: 10px 10px;
+      display: flex;
+     justify-content: space-between;
+    
+ }
+ .key{
+    height: 100%;
+    width: 300px;
+     border: 1px solid black;
+     padding: 10px;
+     border-radius: 8px;
+     display: flex;
+    
+ }
+ .default{
+    height: 100%;
+    width: 300px;
+     border: 1px solid black;
+     border-radius: 8px;
+   
  }
