@@ -181,7 +181,7 @@ h4{
  }
  .container3-inner{
      width: 80%;
-     border: 1px solid black;
+     /* border: 1px solid black; */
      margin-top: 10px;
      display: flex;
      justify-content: center;
@@ -191,18 +191,46 @@ h4{
  .main-Categories{
       width: 25%;
       border: 1px solid black;
+      
   }
 
   .categories{
-     height: 200px;
+     height: 340px;
      width: 100%;
-     border: 1px solid black;
+     /* border: 1px solid black; */
+     margin-top: 10px;
 
   }
+  .cate{
+     height: 90%;
+     width: 100%;
+  }
 
+  .ul-tage{
+   
+    list-style: none;
+}
+  .li-div1{
+     height: 50px ;
+     width: 100%;
+     margin-top: 5px;
+  
+   
+  }
+
+
+  .price{
+    height: 120px;
+    width: 100%;
+    border: 1px solid black;
+  }
+  .input{
+    
+  }
+  
 .fruits{
      width: 75%;
-     border:  2px solid  red;
+     /* border:  2px solid  red; */
      display: flex;
      justify-content: space-evenly;
      flex-wrap: wrap;
@@ -315,3 +343,4 @@ a{
    align-items: center;
   
 }
+
